@@ -20,7 +20,7 @@ public class AcDao {
 	public String setAllAc(List<Ac> a) {
 		
 		 ar.saveAll(a);
-		return "saved successfully";
+		return "success";
 	}
 	
 	
